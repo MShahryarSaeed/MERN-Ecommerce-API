@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/app.js"
+    "start": "nodemon server/app.js"
+    
   },
   "author": "Shahryar",
   "license": "ISC",
