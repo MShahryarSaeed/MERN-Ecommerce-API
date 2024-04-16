@@ -96,6 +96,10 @@ app.get("/success",(req,res)=>{
     res.send("Payment Successfull");
 });
 
+app.get('/',(req,res)=>{
+    res.send("Hello World");
+})
+
 app.use('/api/auth',authRoutes);
 app.use('/api/users',userRoutes);
 app.use('/api/products',productRoutes);
